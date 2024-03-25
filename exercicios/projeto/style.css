@@ -1,11 +1,21 @@
 @charset "UTF-8";
 
-body{
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
     background-color: black;
 }
 
-h1{
-    font-family: sans-serif;
+header h1{
+    color: white;
     text-align: center;
-    color: aliceblue;
+    padding: 15px;
+    font-family: sans-serif;
+}
+
+nav {
+    color: white;
 }
