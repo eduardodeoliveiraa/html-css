@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table {
+            width: 500px;
+            border-collapse: collapse;
+            position: relative;
+        }
+        thead > tr > th {
+            position: sticky;
+            top: -1px;
+            background-color: gray;
+        }
+
+        td, th {
+            border: 1px solid black;
+            padding: 10px;
+        }
+
+        thead, tfoot {
+            background-color: gray;
+            color: white;
+        }
+
+        td.num {
+            text-align: right;
+        }
+
+        caption {
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 10px;
+            background-color: lightgray;
+        }
+
+        tbody > tr:nth-child(2n) {
+            background-color: lightgray;
+        }
+    </style>
+</head>
+<body>
+    <h1>Uso de tabelas grandes</h1>
+    <!--
+        Anatomia para tabelas grandes
+        TABLE
+            THEAD
+                TR, TD, TH
+            TBODY
+                TR, TD, TH
+            TFOOT
+                TR, TD, TH
+    -->
+    <table>
+        <caption>População das Unidades Federativas</caption>
+        <thead>
+            <tr>
+                <th scope="col">Estado</th>
+                <th scope="col" style="width: 100px;">População</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">45 919 049</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="num">21 168 791</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">17 264 943</td>
+            </tr>
+            <tr>
+                <td>Amazonas</td>
+                <td class="num">97 264 653</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">45 919 049</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="num">21 168 791</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">17 264 943</td>
+            </tr>
+            <tr>
+                <td>Amazonas</td>
+                <td class="num">97 264 653</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">45 919 049</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="num">21 168 791</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">17 264 943</td>
+            </tr>
+            <tr>
+                <td>Amazonas</td>
+                <td class="num">97 264 653</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">45 919 049</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="num">21 168 791</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">17 264 943</td>
+            </tr>
+            <tr>
+                <td>Amazonas</td>
+                <td class="num">97 264 653</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">45 919 049</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="num">21 168 791</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">17 264 943</td>
+            </tr>
+            <tr>
+                <td>Amazonas</td>
+                <td class="num">97 264 653</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">45 919 049</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="num">21 168 791</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">17 264 943</td>
+            </tr>
+            <tr>
+                <td>Amazonas</td>
+                <td class="num">97 264 653</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">45 919 049</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="num">21 168 791</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">17 264 943</td>
+            </tr>
+            <tr>
+                <td>Amazonas</td>
+                <td class="num">97 264 653</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th scope="row">Total de Habitantes</th>
+                <td class="num">0000</td>
+            </tr>
+        </tfoot>
+    </table>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatibus, ut iure iste, earum placeat nesciunt saepe qui ea repudiandae nam veritatis aspernatur dignissimos beatae cum recusandae aliquid quisquam officia dolore! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit labore quia repellendus culpa totam magnam sint, voluptas quos corporis, laboriosam odit dicta exercitationem molestias voluptate vero ad reiciendis quo? Consequuntur.
+        Animi, doloremque facere sit exercitationem nisi velit ducimus accusamus nihil recusandae optio vel voluptates cumque magnam, magni impedit fugit ea. Maiores cupiditate odit modi rerum, soluta natus aspernatur laborum similique.
+        Magni ipsa architecto fugit dolores dolorum tenetur in veniam ea rem ex nesciunt, cupiditate amet quia quam laborum commodi reiciendis aliquid! Quaerat quam earum expedita corporis. In tempore illum asperiores?
+        Officia, magnam odit sed quos sit incidunt quia ipsam voluptates esse placeat in nihil. Quo assumenda fuga est, repellat optio dignissimos. Illo alias adipisci quia perferendis repudiandae nihil tempora voluptates.
+        Voluptates, doloremque ipsam perspiciatis aspernatur voluptate excepturi sapiente laborum minima quia reprehenderit dignissimos placeat earum totam eveniet! Culpa voluptatum eius velit! Voluptatum nulla in doloremque. Quidem inventore distinctio vitae officia! Lorem</p>
+
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatibus, ut iure iste, earum placeat nesciunt saepe qui ea repudiandae nam veritatis aspernatur dignissimos beatae cum recusandae aliquid quisquam officia dolore! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit labore quia repellendus culpa totam magnam sint, voluptas quos corporis, laboriosam odit dicta exercitationem molestias voluptate vero ad reiciendis quo? Consequuntur.
+            Animi, doloremque facere sit exercitationem nisi velit ducimus accusamus nihil recusandae optio vel voluptates cumque magnam, magni impedit fugit ea. Maiores cupiditate odit modi rerum, soluta natus aspernatur laborum similique.
+            Magni ipsa architecto fugit dolores dolorum tenetur in veniam ea rem ex nesciunt, cupiditate amet quia quam laborum commodi reiciendis aliquid! Quaerat quam earum expedita corporis. In tempore illum asperiores?
+            Officia, magnam odit sed quos sit incidunt quia ipsam voluptates esse placeat in nihil. Quo assumenda fuga est, repellat optio dignissimos. Illo alias adipisci quia perferendis repudiandae nihil tempora voluptates.
+            Voluptates, doloremque ipsam perspiciatis aspernatur voluptate excepturi sapiente laborum minima quia reprehenderit dignissimos placeat earum totam eveniet! Culpa voluptatum eius velit! Voluptatum nulla in doloremque. Quidem inventore distinctio vitae officia! Lorem</p>
+
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatibus, ut iure iste, earum placeat nesciunt saepe qui ea repudiandae nam veritatis aspernatur dignissimos beatae cum recusandae aliquid quisquam officia dolore! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit labore quia repellendus culpa totam magnam sint, voluptas quos corporis, laboriosam odit dicta exercitationem molestias voluptate vero ad reiciendis quo? Consequuntur.
+                Animi, doloremque facere sit exercitationem nisi velit ducimus accusamus nihil recusandae optio vel voluptates cumque magnam, magni impedit fugit ea. Maiores cupiditate odit modi rerum, soluta natus aspernatur laborum similique.
+                Magni ipsa architecto fugit dolores dolorum tenetur in veniam ea rem ex nesciunt, cupiditate amet quia quam laborum commodi reiciendis aliquid! Quaerat quam earum expedita corporis. In tempore illum asperiores?
+                Officia, magnam odit sed quos sit incidunt quia ipsam voluptates esse placeat in nihil. Quo assumenda fuga est, repellat optio dignissimos. Illo alias adipisci quia perferendis repudiandae nihil tempora voluptates.
+                Voluptates, doloremque ipsam perspiciatis aspernatur voluptate excepturi sapiente laborum minima quia reprehenderit dignissimos placeat earum totam eveniet! Culpa voluptatum eius velit! Voluptatum nulla in doloremque. Quidem inventore distinctio vitae officia! Lorem</p>
+</body>
+</html>
