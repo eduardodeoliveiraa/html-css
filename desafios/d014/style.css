@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+th, td {
+    border: solid 1px black;
+    padding: 15px;
+    text-align: center;
+}
+
+.BackColor {
+    background-color: rgb(103, 103, 103);
+    color: white;
+}
+
+
+
