@@ -4,11 +4,12 @@
     // Para obter mais informações, acesse: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
+        
         {
             "type": "chrome",
             "request": "launch",
             "name": "Open index.html",
-            "file": "c:\\Users\\eduar\\Documents\\estudos\\html-css\\exercicios\\ex026\\mq005\\index.html"
+            "file": "c:\\Users\\eduar\\Documents\\estudos\\html-css\\meus sites\\site001\\index.html"
         }
     ]
 }
