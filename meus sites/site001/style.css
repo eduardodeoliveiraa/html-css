@@ -42,3 +42,15 @@ nav > ul > li > a:hover {
 footer > h1{
     color: white;
 }
+
+@media (min-width:500px) and (max-width:768px) {
+    nav {
+        text-align: center;
+    }
+
+    nav > ul > li > a {
+        padding: 18px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+}
